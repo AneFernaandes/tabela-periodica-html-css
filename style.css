@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+td:hover {
+    color: white;
+}
+
+td {
+    width: 70px;
+    border-radius: 10px;
+
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+}
+
+#apresentacao {
+    font-size: 15px;
+    text-align: left;
+}
+
+.numero-atomico {
+    text-align: right;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.simbolo {
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nome {
+    font-size: 15px;
+
+}
+
+.massa-atomica {
+    font-size: 15px;
+
+}
+
+.nao-metais {
+    background-color: #96CD30;
+}
+
+.gases-nobres {
+    background-color: #2793E0;
+}
+
+.metais-alcalinos {
+    background-color: #F1B200;
+}
+
+.metais-alcalino-terrosos {
+    background-color: #EADA00;
+}
+
+.semimetais {
+    background-color: #4DB6AC;
+}
+
+.halogenios {
+    background-color: #70CBEB;
+}
+
+.outros-metais {
+    background-color: #A2C7D3;
+}
+
+.metais-de-transicao {
+    background-color: #EB8E8E;
+}
+
+.lantanideos {
+    background-color: #90E3E9;
+}
+
+.actinidios {
+    background-color: #DCADD6;
+}
+
+.legenda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: left;
+    padding: 10px;
+
+}
+
+.tabela-cores {
+    width: 30px;
+    height: 30px;
+
+}
+
+.cor-nao-metais {
+    background-color: #96CD30;
+}
+
+.cor-gases-nobres {
+    background-color: #2793E0;
+}
+
+.cor-metais-alcalinos {
+    background-color: #F1B200;
+}
+
+.cor-metais-alcalino-terrosos {
+    background-color: #EADA00;
+}
+
+.cor-semimetais {
+    background-color: #4DB6AC;
+}
+
+.cor-halogenios {
+    background-color: #70CBEB;
+}
+
+.cor-outros-metais {
+    background-color: #A2C7D3;
+}
+
+.cor-metais-de-transicao {
+    background-color: #EB8E8E;
+}
+
+.cor-lantanideos {
+    background-color: #90E3E9;
+}
+
+.cor-actinidios {
+    background-color: #DCADD6;
+}
+
+.footer-site{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 40px;
+    justify-content: space-between;
+}
+
+.footer__link {
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+

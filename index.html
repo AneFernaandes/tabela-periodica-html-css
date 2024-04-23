@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tabela Periódica</title>
+</head>
+
+<body>
+    <header class="inicio">
+        <h2 id="apresentacao">@descodificadas - Eliane Fernandes</h2>
+        <h1 class="titulo">Tabela Periódica</h1>
+    </header>
+
+
+
+    <main>
+        <table>
+
+            <tr class="familias">
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+            </tr>
+
+            <tr id="linha-1">
+                <td class="nao-metais">
+                    <h5 class="numero-atomico">1</h5>
+                    <h2 class="simbolo">H</h2>
+                    <h3 class="nome">hidrogênio</h3>
+                    <h5 class="massa-atomica">1,008 u</h5>
+                </td>
+                <td class="vazio" colspan="16"></td>
+                <td class="gases-nobres">
+                    <h5 class="numero-atomico">2</h5>
+                    <h2 class="simbolo">He</h2>
+                    <h3 class="nome">hélio</h3>
+                    <h5 class="massa-atomica">4,0026 u</h5>
+                </td>
+            </tr>
+            <tr id="linha-2">
+                <td class="metais-alcalinos">
+                    <h5 class="numero-atomico">3</h5>
+                    <h2 class="simbolo">Li</h2>
+                    <h3 class="nome">lítio</h3>
+                    <h5 class="massa-atomica">6,94 u</h5>
+                </td>
+                <td class="metais-alcalino-terrosos">
+                    <h5 class="numero-atomico">4</h5>
+                    <h2 class="simbolo">Be</h2>
+                    <h3 class="nome">berílio</h3>
+                    <h5 class="massa-atomica">9,0122 u</h5>
+                </td>
+                <td class="vazio" colspan="10"></td>
+                <td class="semimetais">
+                    <h5 class="numero-atomico">5</h5>
+                    <h2 class="simbolo">B</h2>
+                    <h3 class="nome">boro</h3>
+                    <h5 class="massa-atomica">10,81 u</h5>
+                </td>
+                <td class="nao-metais">
+                    <h5 class="numero-atomico">6</h5>
+                    <h2 class="simbolo">C</h2>
+                    <h3 class="nome">carbono</h3>
+                    <h5 class="massa-atomica">12,011 u</h5>
+                </td>
+                <td class="nao-metais">
+                    <h5 class="numero-atomico">7</h5>
+                    <h2 class="simbolo">N</h2>
+                    <h3 class="nome">nitrogênio</h3>
+                    <h5 class="massa-atomica">14,007 u</h5>
+                </td>
+                <td class="nao-metais">
+                    <h5 class="numero-atomico">8</h5>
+                    <h2 class="simbolo">O</h2>
+                    <h3 class="nome">oxigênio</h3>
+                    <h5 class="massa-atomica">15,999 u</h5>
+                </td>
+                <td class="halogenios">
+                    <h5 class="numero-atomico">9</h5>
+                    <h2 class="simbolo">F</h2>
+                    <h3 class="nome">flúor</h3>
+                    <h5 class="massa-atomica">18,998 u</h5>
+                </td>
+                <td class="gases-nobres">
+                    <h5 class="numero-atomico">10</h5>
+                    <h2 class="simbolo">Ne</h2>
+                    <h3 class="nome">neônio</h3>
+                    <h5 class="massa-atomica">20,180 u</h5>
+                </td>
+            </tr>
+            <tr id="linha-3">
+                <td class="metais-alcalinos">
+                    <h5 class="numero-atomico">11</h5>
+                    <h2 class="simbolo">Na</h2>
+                    <h3 class="nome">sódio</h3>
+                    <h5 class="massa-atomica">22,990 u</h5>
+                </td>
+                <td class="metais-alcalino-terrosos">
+                    <h5 class="numero-atomico">12</h5>
+                    <h2 class="simbolo">Mg</h2>
+                    <h3 class="nome">magnésio</h3>
+                    <h5 class="massa-atomica">24,305 u</h5>
+                </td>
+                <td class="vazio" colspan="10"></td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">13</h5>
+                    <h2 class="simbolo">Al</h2>
+                    <h3 class="nome">alumínio</h3>
+                    <h5 class="massa-atomica">26,982 u</h5>
+                </td>
+                <td class="semimetais">
+                    <h5 class="numero-atomico">14</h5>
+                    <h2 class="simbolo">Si</h2>
+                    <h3 class="nome">silício</h3>
+                    <h5 class="massa-atomica">28,085 u</h5>
+                </td>
+                <td class="nao-metais">
+                    <h5 class="numero-atomico">15</h5>
+                    <h2 class="simbolo">P</h2>
+                    <h3 class="nome">fosfóro</h3>
+                    <h5 class="massa-atomica">30,974 u</h5>
+                </td>
+                <td class="nao-metais">
+                    <h5 class="numero-atomico">16</h5>
+                    <h2 class="simbolo">S</h2>
+                    <h3 class="nome">enxofre</h3>
+                    <h5 class="massa-atomica">32,06 u</h5>
+                </td>
+                <td class="halogenios">
+                    <h5 class="numero-atomico">17</h5>
+                    <h2 class="simbolo">Cl</h2>
+                    <h3 class="nome">cloro</h3>
+                    <h5 class="massa-atomica">35,45 u</h5>
+                </td>
+                <td class="gases-nobres">
+                    <h5 class="numero-atomico">18</h5>
+                    <h2 class="simbolo">Ar</h2>
+                    <h3 class="nome">argônio</h3>
+                    <h5 class="massa-atomica">39,948 u</h5>
+                </td>
+            </tr>
+            <tr id="linha-4">
+                <td class="metais-alcalinos">
+                    <h5 class="numero-atomico">19</h5>
+                    <h2 class="simbolo">K</h2>
+                    <h3 class="nome">potássio</h3>
+                    <h5 class="massa-atomica">39,098 u</h5>
+                </td>
+                <td class="metais-alcalino-terrosos">
+                    <h5 class="numero-atomico">20</h5>
+                    <h2 class="simbolo">Ca</h2>
+                    <h3 class="nome">cálcio</h3>
+                    <h5 class="massa-atomica">40,078(4) u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">21</h5>
+                    <h2 class="simbolo">Sc</h2>
+                    <h3 class="nome">escândio</h3>
+                    <h5 class="massa-atomica">44,956 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">22</h5>
+                    <h2 class="simbolo">Ti</h2>
+                    <h3 class="nome">titânio</h3>
+                    <h5 class="massa-atomica">47,867 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">23</h5>
+                    <h2 class="simbolo">V</h2>
+                    <h3 class="nome">vanádio</h3>
+                    <h5 class="massa-atomica">50,942 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">24</h5>
+                    <h2 class="simbolo">Cr</h2>
+                    <h3 class="nome">crômio</h3>
+                    <h5 class="massa-atomica">51,996 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">25</h5>
+                    <h2 class="simbolo">Mn</h2>
+                    <h3 class="nome">manganês</h3>
+                    <h5 class="massa-atomica">54,938 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">26</h5>
+                    <h2 class="simbolo">Fe</h2>
+                    <h3 class="nome">ferro</h3>
+                    <h5 class="massa-atomica">55,845(2) u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">27</h5>
+                    <h2 class="simbolo">Co</h2>
+                    <h3 class="nome">cobalto</h3>
+                    <h5 class="massa-atomica">58,933 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">28</h5>
+                    <h2 class="simbolo">Ni</h2>
+                    <h3 class="nome">níquel</h3>
+                    <h5 class="massa-atomica">58,693 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">29</h5>
+                    <h2 class="simbolo">Cu</h2>
+                    <h3 class="nome">cobre</h3>
+                    <h5 class="massa-atomica">63,546(3) u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">30</h5>
+                    <h2 class="simbolo">Zn</h2>
+                    <h3 class="nome">zinco</h3>
+                    <h5 class="massa-atomica">65,38(2) u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">31</h5>
+                    <h2 class="simbolo">Ga</h2>
+                    <h3 class="nome">gálio</h3>
+                    <h5 class="massa-atomica">69,723 u</h5>
+                </td>
+                <td class="semimetais">
+                    <h5 class="numero-atomico">32</h5>
+                    <h2 class="simbolo">Ge</h2>
+                    <h3 class="nome">germânio</h3>
+                    <h5 class="massa-atomica">72,630(8) u</h5>
+                </td>
+                <td class="semimetais">
+                    <h5 class="numero-atomico">33</h5>
+                    <h2 class="simbolo">As</h2>
+                    <h3 class="nome">arsênio</h3>
+                    <h5 class="massa-atomica">74,922 u</h5>
+                </td>
+                <td class="nao-metais">
+                    <h5 class="numero-atomico">34</h5>
+                    <h2 class="simbolo">Se</h2>
+                    <h3 class="nome">selênio</h3>
+                    <h5 class="massa-atomica">78,971(8) u</h5>
+                </td>
+                <td class="halogenios">
+                    <h5 class="numero-atomico">35</h5>
+                    <h2 class="simbolo">Br</h2>
+                    <h3 class="nome">bromo</h3>
+                    <h5 class="massa-atomica">79,904 u</h5>
+                </td>
+                <td class="gases-nobres">
+                    <h5 class="numero-atomico">36</h5>
+                    <h2 class="simbolo">Kr</h2>
+                    <h3 class="nome">criptônio</h3>
+                    <h5 class="massa-atomica">87,798(2) u</h5>
+                </td>
+            </tr>
+            <tr id="linha-5">
+                <td class="metais-alcalinos">
+                    <h5 class="numero-atomico">37</h5>
+                    <h2 class="simbolo">Rb</h2>
+                    <h3 class="nome">rubídio</h3>
+                    <h5 class="massa-atomica">85,468 u</h5>
+                </td>
+                <td class="metais-alcalino-terrosos">
+                    <h5 class="numero-atomico">38</h5>
+                    <h2 class="simbolo">Sr</h2>
+                    <h3 class="nome">estrôncio</h3>
+                    <h5 class="massa-atomica">87,62 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">39</h5>
+                    <h2 class="simbolo">Y</h2>
+                    <h3 class="nome">ítrio</h3>
+                    <h5 class="massa-atomica">88,906 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">40</h5>
+                    <h2 class="simbolo">Zr</h2>
+                    <h3 class="nome">zircônio</h3>
+                    <h5 class="massa-atomica">91,224(2) u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">41</h5>
+                    <h2 class="simbolo">Nb</h2>
+                    <h3 class="nome">nióbio</h3>
+                    <h5 class="massa-atomica">92,906 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">42</h5>
+                    <h2 class="simbolo">Mo</h2>
+                    <h3 class="nome">molibdênio</h3>
+                    <h5 class="massa-atomica">95,95 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">43</h5>
+                    <h2 class="simbolo">Tc</h2>
+                    <h3 class="nome">tecnécio</h3>
+                    <h5 class="massa-atomica">[98] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">44</h5>
+                    <h2 class="simbolo">Ru</h2>
+                    <h3 class="nome">rutênio</h3>
+                    <h5 class="massa-atomica">101,07(2) u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">45</h5>
+                    <h2 class="simbolo">Rh</h2>
+                    <h3 class="nome">ródio</h3>
+                    <h5 class="massa-atomica">102,91 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">46</h5>
+                    <h2 class="simbolo">Pd</h2>
+                    <h3 class="nome">paládio</h3>
+                    <h5 class="massa-atomica">106,42 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">47</h5>
+                    <h2 class="simbolo">Ag</h2>
+                    <h3 class="nome">prata</h3>
+                    <h5 class="massa-atomica">107,87 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">48</h5>
+                    <h2 class="simbolo">Cd</h2>
+                    <h3 class="nome">cádmio</h3>
+                    <h5 class="massa-atomica">112,41 u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">49</h5>
+                    <h2 class="simbolo">In</h2>
+                    <h3 class="nome">índio</h3>
+                    <h5 class="massa-atomica">114,82 u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">50</h5>
+                    <h2 class="simbolo">Sn</h2>
+                    <h3 class="nome">estanho</h3>
+                    <h5 class="massa-atomica">118,71 u</h5>
+                </td>
+                <td class="semimetais">
+                    <h5 class="numero-atomico">51</h5>
+                    <h2 class="simbolo">Sb</h2>
+                    <h3 class="nome">antimônio</h3>
+                    <h5 class="massa-atomica">121,76 u</h5>
+                </td>
+                <td class="semimetais">
+                    <h5 class="numero-atomico">52</h5>
+                    <h2 class="simbolo">Te</h2>
+                    <h3 class="nome">telúrio</h3>
+                    <h5 class="massa-atomica">127,60(3) u</h5>
+                </td>
+                <td class="halogenios">
+                    <h5 class="numero-atomico">53</h5>
+                    <h2 class="simbolo">I</h2>
+                    <h3 class="nome">iodo</h3>
+                    <h5 class="massa-atomica">126,90 u</h5>
+                </td>
+                <td class="gases-nobres">
+                    <h5 class="numero-atomico">54</h5>
+                    <h2 class="simbolo">Xe</h2>
+                    <h3 class="nome">xenônio</h3>
+                    <h5 class="massa-atomica">131,29 u</h5>
+                </td>
+            </tr>
+            <tr id="linha-6">
+                <td class="metais-alcalinos">
+                    <h5 class="numero-atomico">55</h5>
+                    <h2 class="simbolo">Cs</h2>
+                    <h3 class="nome">césio</h3>
+                    <h5 class="massa-atomica">132,91 u</h5>
+                </td>
+                <td class="metais-alcalino-terrosos">
+                    <h5 class="numero-atomico">56</h5>
+                    <h2 class="simbolo">Ba</h2>
+                    <h3 class="nome">bário</h3>
+                    <h5 class="massa-atomica">137,33 u</h5>
+                </td>
+                <td class="apenas-numeros">
+                    <h5 class="numero-atomico">57 - 71</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">72</h5>
+                    <h2 class="simbolo">Hf</h2>
+                    <h3 class="nome">háfnio</h3>
+                    <h5 class="massa-atomica">178,49(2) u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">73</h5>
+                    <h2 class="simbolo">Ta</h2>
+                    <h3 class="nome">tântalo</h3>
+                    <h5 class="massa-atomica">180,95 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">74</h5>
+                    <h2 class="simbolo">W</h2>
+                    <h3 class="nome">tungstênio</h3>
+                    <h5 class="massa-atomica">183,84 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">75</h5>
+                    <h2 class="simbolo">Re</h2>
+                    <h3 class="nome">rênio</h3>
+                    <h5 class="massa-atomica">186,21 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">76</h5>
+                    <h2 class="simbolo">Os</h2>
+                    <h3 class="nome">ósmio</h3>
+                    <h5 class="massa-atomica">190,23(3) u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">77</h5>
+                    <h2 class="simbolo">Ir</h2>
+                    <h3 class="nome">irídio</h3>
+                    <h5 class="massa-atomica">192,22 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">78</h5>
+                    <h2 class="simbolo">Pt</h2>
+                    <h3 class="nome">platina</h3>
+                    <h5 class="massa-atomica">195,08 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">79</h5>
+                    <h2 class="simbolo">Au</h2>
+                    <h3 class="nome">ouro</h3>
+                    <h5 class="massa-atomica">196,97 u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">80</h5>
+                    <h2 class="simbolo">Hg</h2>
+                    <h3 class="nome">mercúrio</h3>
+                    <h5 class="massa-atomica">200,59 u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">81</h5>
+                    <h2 class="simbolo">Tl</h2>
+                    <h3 class="nome">tálio</h3>
+                    <h5 class="massa-atomica">204,38 u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">82</h5>
+                    <h2 class="simbolo">Pb</h2>
+                    <h3 class="nome">chumbo</h3>
+                    <h5 class="massa-atomica">207,2 u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">83</h5>
+                    <h2 class="simbolo">Bi</h2>
+                    <h3 class="nome">bismuto</h3>
+                    <h5 class="massa-atomica">208,98 u</h5>
+                </td>
+                <td class="semimetais">
+                    <h5 class="numero-atomico">84</h5>
+                    <h2 class="simbolo">Po</h2>
+                    <h3 class="nome">polônio</h3>
+                    <h5 class="massa-atomica">[209] u</h5>
+                </td>
+                <td class="halogenios">
+                    <h5 class="numero-atomico">85</h5>
+                    <h2 class="simbolo">At</h2>
+                    <h3 class="nome">astato</h3>
+                    <h5 class="massa-atomica">[210] u</h5>
+                </td>
+                <td class="gases-nobres">
+                    <h5 class="numero-atomico">86</h5>
+                    <h2 class="simbolo">Rn</h2>
+                    <h3 class="nome">radônio</h3>
+                    <h5 class="massa-atomica">[222] u</h5>
+                </td>
+            </tr>
+            <tr id="linha-7">
+                <td class="metais-alcalinos">
+                    <h5 class="numero-atomico">87</h5>
+                    <h2 class="simbolo">Fr</h2>
+                    <h3 class="nome">frâncio</h3>
+                    <h5 class="massa-atomica">[223] u</h5>
+                </td>
+                <td class="metais-alcalino-terrosos">
+                    <h5 class="numero-atomico">88</h5>
+                    <h2 class="simbolo">Ra</h2>
+                    <h3 class="nome">rádio</h3>
+                    <h5 class="massa-atomica">[226] u</h5>
+                </td>
+                <td class="apenas-numeros">
+                    <h5 class="numero-atomico">89 - 103</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">104</h5>
+                    <h2 class="simbolo">Rf</h2>
+                    <h3 class="nome">rutherfórdio</h3>
+                    <h5 class="massa-atomica">[267] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">105</h5>
+                    <h2 class="simbolo">Db</h2>
+                    <h3 class="nome">dúbnio</h3>
+                    <h5 class="massa-atomica">[268] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">106</h5>
+                    <h2 class="simbolo">Sg</h2>
+                    <h3 class="nome">seabórgio</h3>
+                    <h5 class="massa-atomica">[269] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">107</h5>
+                    <h2 class="simbolo">Bh</h2>
+                    <h3 class="nome">bóhrio</h3>
+                    <h5 class="massa-atomica">[270] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">108</h5>
+                    <h2 class="simbolo">Hs</h2>
+                    <h3 class="nome">hássio</h3>
+                    <h5 class="massa-atomica">[269] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">109</h5>
+                    <h2 class="simbolo">Mt</h2>
+                    <h3 class="nome">meitnério</h3>
+                    <h5 class="massa-atomica">[278] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">110</h5>
+                    <h2 class="simbolo">Ds</h2>
+                    <h3 class="nome">darmstádtio</h3>
+                    <h5 class="massa-atomica">[281] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">111</h5>
+                    <h2 class="simbolo">Rg</h2>
+                    <h3 class="nome">roentgênio</h3>
+                    <h5 class="massa-atomica">[281] u</h5>
+                </td>
+                <td class="metais-de-transicao">
+                    <h5 class="numero-atomico">112</h5>
+                    <h2 class="simbolo">Cn</h2>
+                    <h3 class="nome">copernício</h3>
+                    <h5 class="massa-atomica">[285] u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">113</h5>
+                    <h2 class="simbolo">Nh</h2>
+                    <h3 class="nome">nihônio</h3>
+                    <h5 class="massa-atomica">[286] u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">114</h5>
+                    <h2 class="simbolo">Fl</h2>
+                    <h3 class="nome">flevóvio</h3>
+                    <h5 class="massa-atomica">[289] u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">115</h5>
+                    <h2 class="simbolo">Mc</h2>
+                    <h3 class="nome">moscóvio</h3>
+                    <h5 class="massa-atomica">[288] u</h5>
+                </td>
+                <td class="outros-metais">
+                    <h5 class="numero-atomico">116</h5>
+                    <h2 class="simbolo">Lv</h2>
+                    <h3 class="nome">livermório</h3>
+                    <h5 class="massa-atomica">[293] u</h5>
+                </td>
+                <td class="halogenios">
+                    <h5 class="numero-atomico">117</h5>
+                    <h2 class="simbolo">Ts</h2>
+                    <h3 class="nome">tenessino</h3>
+                    <h5 class="massa-atomica">[294] u</h5>
+                </td>
+                <td class="gases-nobres">
+                    <h5 class="numero-atomico">118</h5>
+                    <h2 class="simbolo">Og</h2>
+                    <h3 class="nome">oganessônio</h3>
+                    <h5 class="massa-atomica">[294] u</h5>
+                </td>
+            </tr>
+
+
+
+<section class="espaco">
+    <div class="espaco-em-branco"></div>
+</section>
+
+
+            <tr class="linha-recuada">
+                <td class="vazio" colspan="3"></td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">57</h5>
+                    <h2 class="simbolo">La</h2>
+                    <h3 class="nome">lantânio</h3>
+                    <h5 class="massa-atomica">138,91 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">58</h5>
+                    <h2 class="simbolo">Ce</h2>
+                    <h3 class="nome">cério</h3>
+                    <h5 class="massa-atomica">140,12 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">59</h5>
+                    <h2 class="simbolo">Pr</h2>
+                    <h3 class="nome">praseodímio</h3>
+                    <h5 class="massa-atomica">140,91 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">60</h5>
+                    <h2 class="simbolo">Nd</h2>
+                    <h3 class="nome">neodímio</h3>
+                    <h5 class="massa-atomica">144,24 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">61</h5>
+                    <h2 class="simbolo">Pm</h2>
+                    <h3 class="nome">promécio</h3>
+                    <h5 class="massa-atomica">[145] u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">62</h5>
+                    <h2 class="simbolo">Sm</h2>
+                    <h3 class="nome">samário</h3>
+                    <h5 class="massa-atomica">150,36(2) u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">63</h5>
+                    <h2 class="simbolo">Eu</h2>
+                    <h3 class="nome">európio</h3>
+                    <h5 class="massa-atomica">151,96 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">64</h5>
+                    <h2 class="simbolo">Gd</h2>
+                    <h3 class="nome">gadolínio</h3>
+                    <h5 class="massa-atomica">157,25(3) u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">65</h5>
+                    <h2 class="simbolo">Tb</h2>
+                    <h3 class="nome">térbio</h3>
+                    <h5 class="massa-atomica">158,93 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">66</h5>
+                    <h2 class="simbolo">Dy</h2>
+                    <h3 class="nome">disprósio</h3>
+                    <h5 class="massa-atomica">162,50 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">67</h5>
+                    <h2 class="simbolo">Ho</h2>
+                    <h3 class="nome">hólmio</h3>
+                    <h5 class="massa-atomica">164,93 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">68</h5>
+                    <h2 class="simbolo">Er</h2>
+                    <h3 class="nome">érbio</h3>
+                    <h5 class="massa-atomica">167,26 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">69</h5>
+                    <h2 class="simbolo">Tm</h2>
+                    <h3 class="nome">túlio</h3>
+                    <h5 class="massa-atomica">168,93 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">70</h5>
+                    <h2 class="simbolo">Yb</h2>
+                    <h3 class="nome">itérbio</h3>
+                    <h5 class="massa-atomica">173,05 u</h5>
+                </td>
+                <td class="lantanideos">
+                    <h5 class="numero-atomico">71</h5>
+                    <h2 class="simbolo">Lu</h2>
+                    <h3 class="nome">lutécio</h3>
+                    <h5 class="massa-atomica">174,97 u</h5>
+                </td>
+            </tr>
+            <tr class="linha-recuada">
+                <td class="vazio" colspan="3"></td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">89</h5>
+                    <h2 class="simbolo">Ac</h2>
+                    <h3 class="nome">actínio</h3>
+                    <h5 class="massa-atomica">[227] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">90</h5>
+                    <h2 class="simbolo">Th</h2>
+                    <h3 class="nome">tório</h3>
+                    <h5 class="massa-atomica">232,04 u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">91</h5>
+                    <h2 class="simbolo">Pa</h2>
+                    <h3 class="nome">protactínio</h3>
+                    <h5 class="massa-atomica">231,04 u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">92</h5>
+                    <h2 class="simbolo">U</h2>
+                    <h3 class="nome">urânio</h3>
+                    <h5 class="massa-atomica">238,03 u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">93</h5>
+                    <h2 class="simbolo">Np</h2>
+                    <h3 class="nome">netúnio</h3>
+                    <h5 class="massa-atomica">[237] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">94</h5>
+                    <h2 class="simbolo">Pu</h2>
+                    <h3 class="nome">plutônio</h3>
+                    <h5 class="massa-atomica">[244] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">95</h5>
+                    <h2 class="simbolo">Am</h2>
+                    <h3 class="nome">amerício</h3>
+                    <h5 class="massa-atomica">[243] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">96</h5>
+                    <h2 class="simbolo">Cm</h2>
+                    <h3 class="nome">cúrio</h3>
+                    <h5 class="massa-atomica">[247] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">97</h5>
+                    <h2 class="simbolo">Bk</h2>
+                    <h3 class="nome">berquélio</h3>
+                    <h5 class="massa-atomica">[247] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">98</h5>
+                    <h2 class="simbolo">Cf</h2>
+                    <h3 class="nome">califórnio</h3>
+                    <h5 class="massa-atomica">[251] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">99</h5>
+                    <h2 class="simbolo">Es</h2>
+                    <h3 class="nome">einstênio</h3>
+                    <h5 class="massa-atomica">[252] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">100</h5>
+                    <h2 class="simbolo">Fm</h2>
+                    <h3 class="nome">férmio</h3>
+                    <h5 class="massa-atomica">[257] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">101</h5>
+                    <h2 class="simbolo">Md</h2>
+                    <h3 class="nome">mendelévio</h3>
+                    <h5 class="massa-atomica">[258] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">102</h5>
+                    <h2 class="simbolo">No</h2>
+                    <h3 class="nome">nobélio</h3>
+                    <h5 class="massa-atomica">[259] u</h5>
+                </td>
+                <td class="actinidios">
+                    <h5 class="numero-atomico">103</h5>
+                    <h2 class="simbolo">Lr</h2>
+                    <h3 class="nome">laurêncio</h3>
+                    <h5 class="massa-atomica">[262] u</h5>
+                </td>
+            </tr>
+        </table>
+    </main>
+  <section class="legenda">
+    <div class="cor-nao-metais tabela-cores"></div><p>Não metais</p>
+    <div class="cor-gases-nobres tabela-cores"></div><p>Gases nobres</p>
+    <div class="cor-metais-alcalinos tabela-cores"></div><p>Metais alcalinos</p>
+    <div class="cor-metais-alcalino-terrosos tabela-cores"></div><p>Metais alcalino terrosos</p>
+    <div class="cor-semimetais tabela-cores"></div><p>Semimetais</p>
+    <div class="cor-halogenios tabela-cores"></div><p>Halogênios</p>
+    <div class="cor-outros-metais tabela-cores"></div><p>Outros metais</p>
+    <div class="cor-metais-de-transicao tabela-cores"></div><p>Metais de transição</p>
+    <div class="cor-lantanideos tabela-cores"></div><p>Lantanídeos</p>
+    <div class="cor-actinidios tabela-cores"></div><p>Actinídios</p>
+</section>
+<footer class="footer">
+
+    <div class="footer-site">       
+      <a href="https://github.com/AneFernaandes" target="_blank" class="footer__link" title="Me acompanhe no Github"><img class="icone" src="./img/github.svg"></a>
+      <a href="https://www.linkedin.com/in/eliane-analisededados/" target="_blank" class="footer__link" title="Me acompanhe no linkedin"><img class="icone" src="./img/linkedin.svg"></a>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
